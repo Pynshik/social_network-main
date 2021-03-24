@@ -1,0 +1,125 @@
+{
+  "tweets": [
+    {
+      "_id": "6015c1cc9fbe6f97cc488862",
+      "text": "Ad est sint minim nulla elit ex id ex voluptate irure anim eiusmod. Reprehenderit exercitation consectetur duis dolore fugiat id incididunt nulla labore proident anim esse. Proident incididunt sint fugiat Lorem in consectetur adipisicing voluptate voluptate proident aliqua culpa est magna. Ex pariatur aliqua velit laborum aliquip magna amet culpa irure excepteur do laboris. Sit dolore aliqua dolore do anim cillum exercitation incididunt anim ad est ad.",
+      "user": {
+        "fullname": "Workman Lyons",
+        "username": "mccarthy",
+        "avatarUrl": "https://source.unsplash.com/random/100x100?1"
+      }
+    },
+    {
+      "_id": "6015c1cc21858daf81947503",
+      "text": "Do qui ullamco in ullamco nulla ullamco qui enim qui eiusmod sit. Esse incididunt anim est elit do. Tempor ut anim in irure. Sint enim cillum eiusmod aliquip eiusmod Lorem nulla voluptate. Consectetur dolore proident tempor dolore anim irure eiusmod officia exercitation reprehenderit adipisicing sit quis.",
+      "user": {
+        "fullname": "Hansen Oliver",
+        "username": "carmella",
+        "avatarUrl": "https://source.unsplash.com/random/100x100?3"
+      }
+    },
+    {
+      "_id": "6015c1ccc8458e96e418bef1",
+      "text": "Non deserunt minim labore fugiat cillum mollit cillum dolor nisi pariatur anim veniam deserunt pariatur. Ipsum laborum laborum mollit dolore qui aute cupidatat eu elit velit sint Lorem. Ex nisi ex mollit cillum commodo deserunt laboris Lorem nisi. Ipsum veniam in sunt pariatur nulla sit officia cupidatat nisi. Et qui nostrud excepteur eiusmod sunt culpa cillum.",
+      "user": {
+        "fullname": "Eunice Burnett",
+        "username": "jessica",
+        "avatarUrl": "https://source.unsplash.com/random/100x100?3"
+      }
+    },
+    {
+      "_id": "6015c1ccff1689d680dfcfb6",
+      "text": "Id velit sit eiusmod id est magna. Sit culpa dolor sit fugiat eiusmod enim ea excepteur amet proident quis dolore. Quis cupidatat eu consequat labore nostrud ex consectetur. Cupidatat ut non veniam aliquip amet veniam cillum elit. Nulla aute eiusmod do Lorem reprehenderit deserunt dolore minim nisi.",
+      "user": {
+        "fullname": "Claudia Santana",
+        "username": "merritt",
+        "avatarUrl": "https://source.unsplash.com/random/100x100?5"
+      }
+    },
+    {
+      "id": 111,
+      "_id": "6015c1cc4d6cab822a8d1155",
+      "text": "Test tweet",
+      "user": {
+        "fullname": "Test user",
+        "username": "user",
+        "avatarUrl": "https://source.unsplash.com/random/100x100?2"
+      }
+    },
+    {
+      "_id": "wxsssj0hh9n",
+      "text": "Hello",
+      "user": {
+        "fullname": "Test user",
+        "username": "user",
+        "avatarUrl": "https://source.unsplash.com/random/100x100?2"
+      },
+      "id": 117
+    },
+    {
+      "_id": "shdl214pq4b",
+      "text": "Hello",
+      "user": {
+        "fullname": "Test user",
+        "username": "user",
+        "avatarUrl": "https://source.unsplash.com/random/100x100?2"
+      },
+      "id": 118
+    },
+    {
+      "_id": "5ubjovup5j8",
+      "text": "Test",
+      "user": {
+        "fullname": "Test user",
+        "username": "user",
+        "avatarUrl": "https://source.unsplash.com/random/100x100?2"
+      },
+      "id": 119
+    }
+  ],
+  "tags": [
+    {
+      "_id": "6015c1cc80454437d6d8a",
+      "name": "#HandOfRussionHistory",
+      "count": 1530
+    },
+    {
+      "_id": "6015c1cc8454437d6d81ad",
+      "name": "Навального",
+      "count": 2345
+    },
+    {
+      "_id": "6015c12cc8454437d6d8add",
+      "name": "Бабарико",
+      "count": 1148
+    },
+    {
+      "_id": "6015c1cc84654437d6d8addc",
+      "name": "Беларусь",
+      "count": 5898
+    }
+  ],
+  "users": [
+    {
+      "fullname": "Paula Kramer",
+      "username": "powell",
+      "avatarUrl": "https://source.unsplash.com/random/100x100?3"
+    },
+    {
+      "fullname": "Hughes Mclaughlin",
+      "username": "maryanne",
+      "avatarUrl": "https://source.unsplash.com/random/100x100?2"
+    },
+    {
+      "fullname": "Sarah Terrell",
+      "username": "mcdowell",
+      "avatarUrl": "https://source.unsplash.com/random/100x100?2"
+    }
+  ],
+  "user": {
+    "_id": "6015c1cc8454437d6d8addce",
+    "fullname": "Nastya Tkach",
+    "username": "nastya21",
+    "avatarUrl": "https://images.unsplash.com/photo-1612030291530-adbd70eb9dc8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80"
+  }
+}
