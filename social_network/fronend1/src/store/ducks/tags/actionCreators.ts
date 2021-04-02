@@ -25,7 +25,7 @@ export interface SetTagsLoadingStatusActionInterface extends Action<TagsActionsT
 
 export const setTags = (payload: TagsStateInterface['items']): SetTagsActionInterface => ({
     type: TagsActionsType.SET_TAGS,
-    payload
+    payload: payload
 });
 
 export const fetchTags = (): FetchTagsActionInterface => ({

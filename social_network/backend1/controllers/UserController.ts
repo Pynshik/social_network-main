@@ -11,19 +11,13 @@ class UserController {
     _: any,
     res: express.Response
   ): Promise<void> {
-    try {
+
       const users = await UserModel.find({}).exec();
 
       res.json({
         status: "success",
         data: users,
       });
-    } catch (error) {
-      res.status(400).json({
-        status: "error",
-        message: error,
-      });
-    }
   }
 
   async show(req: express.Request, res: express.Response): Promise<void> {
@@ -31,24 +25,22 @@ class UserController {
       const userId = req.params.id;
 
       if (!isValidObjectId(userId)) {
-        res.status(404).send();
         return;
       }
 
       const user = await UserModel.findById(userId).exec();
 
       if (!user) {
-        res.status(404).send();
         return;
       }
 
-      res.json({
+      res.status(200).json({
         status: "success",
         data: user,
       });
 
     } catch (error) {
-      res.status(500).json({
+      res.json({
         status: "error",
         message: error,
       });
@@ -63,7 +55,6 @@ class UserController {
       );
 
       if (!newPassword) {
-        res.status(400).send();
         return;
       }
 
@@ -80,7 +71,7 @@ class UserController {
         data: user,
       });
     } catch (error) {
-      res.status(400).json({
+      res.json({
         status: "error",
         message: error,
       });
@@ -90,7 +81,7 @@ class UserController {
   async afterLogin(req: express.Request, res: express.Response): Promise<void> {
     try {
       const user = req.user ? (req.user as UserModelDocumentInterface).toJSON() : undefined;
-      res.json({
+      res.status(200).json({
         status: "success",
         data: {
           ...user,
@@ -99,7 +90,7 @@ class UserController {
         },
       });
     } catch (error) {
-      res.status(500).json({
+      res.json({
         status: "error",
         message: error,
       });
@@ -130,7 +121,7 @@ class UserController {
 
       const user = await UserModel.create(data);
       
-      res.status(201).json({
+      res.json({
         status: "success",
         data: {
           ...user.toJSON(),
@@ -139,25 +130,24 @@ class UserController {
         },
       });
     } catch (error) {
-      res.status(400).json({
+      res.json({
         status: "error",
-        message: error,
+        message: error.message,
       });
     }
   }
 
-
   async getUserInfo(req: express.Request, res: express.Response): Promise<void> {
     try {
       const user = req.user ? (req.user as UserModelDocumentInterface).toJSON(): undefined;
-      res.json({
+      res.status(200).json({
         status: "success",
         data: user,
       });
     } catch (error) {
-      res.status(500).json({
+      res.json({
         status: "error",
-        message: error,
+        message: error.message,
       });
     }
   }

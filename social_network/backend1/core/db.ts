@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 mongoose.Promise = Promise;
 
-mongoose.connect('mongodb://mongo:27017/twitter', {
+mongoose.connect('mongodb://localhost:27017/twitter', {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true,
